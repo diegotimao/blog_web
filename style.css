@@ -1,0 +1,176 @@
+body{
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+  background-color: white;
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+}
+.navbar-menu li {
+  margin: 8px 5px;
+  cursor: pointer;
+}
+
+#action{
+  color: gray;
+}
+
+.navbar-menu li:hover{
+  color: gray;
+}
+
+.navbar-menu i {
+  margin-left: 18px;
+}
+
+.header{
+  background-image: url(https://images.pexels.com/photos/3511104/pexels-photo-3511104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header div{
+  background-color: white;
+  padding: 15px 30px;
+  font-size: 38px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: 250px;
+  margin: 30px;
+}
+
+.card-header img{
+  width: 100%;
+}
+.card-body{
+  text-align: center;
+  padding: 15px 25px;
+  background-color: white;
+}
+.card-content h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-content h2 {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 100;
+  color: gray;
+}
+.card-content p {
+  font-size: 12px;
+}
+
+.card-footer {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  color: grey;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: gray;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 30px 30px 20px;
+}
+footer p{
+  font-size: 12px;
+  margin: 0;
+}
+
+
+<Style>
+ ul li  {
+    ul li {
+	width:  30%;
+	overflow:hidden;
+}
+  li .item {
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+}
+  .item img {
+
+	whidth: 100%;
+	height: 100%;
+}
+
+.item .info {
+	whidth: 100%;
+	heigth: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 999;
+}
+
+</style>
+
+
+
+
+<ul>
+   <li>
+	<div class="item">
+		img
+		<div>
+			<h2>TESTE<h2>
+		</div>
+	</div>
+   </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
